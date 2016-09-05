@@ -1,0 +1,92 @@
+
+/*-----------------------------------------------*/
+
+main {
+   background-image: none;
+   min-height: 645px;
+   margin:0;
+   padding:0;
+}
+
+.container {
+    width: 100%;
+    padding:0;
+    margin: 0;
+}
+
+.container .img{
+   margin-top:-10px;
+   padding:0;
+    z-index: -15;
+}
+.about_trud {
+    z-index: -15;
+}
+.about_trud p:last-of-type{
+    padding: 5%;
+    text-align: right;
+    background-color: rgb(232, 232, 232);
+}
+
+.about_trud h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 12px;
+    margin:0;
+}
+
+.about_trud .p{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.75em;
+    margin: 0px 5%;
+}
+
+.container ul li {
+    font-size: 14px;
+    line-height: 1.75em;
+}
+.bottom {
+    text-align: center;
+    padding: 0px;
+}
+
+.bottom p:first-of-type{
+    background-color: rgb(244, 244, 244);
+    padding: 20px;
+    border-top:1px solid black;
+    font-style: italic;
+}
+
+.bottom p:last-of-type{
+    padding: 20px;
+}
+/*-----------------------------------------------*/
+
+table {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+table td {
+    padding: 20px;
+    font-size: 17px;
+/*    font-weight: bolder;*/
+}
+table td:last-of-type {
+    width: 57%;
+    border-top: 1px solid #000000;
+     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 186, 0, 0.75)), color-stop(100%, rgba(255, 255, 255, 0.58)));
+  background-image: -webkit-linear-gradient(top, rgba(255, 186, 0, 0.75), rgba(255, 255, 255, 0.58));
+  background-image: -moz-linear-gradient(top, rgba(255, 186, 0, 0.75), rgba(255, 255, 255, 0.58));
+  background-image: -o-linear-gradient(top, rgba(255, 186, 0, 0.75), rgba(255, 255, 255, 0.58));
+  background-image: linear-gradient(top, rgba(255, 186, 0, 0.75), rgba(255, 255, 255, 0.58));
+}
+table td:first-of-type {
+    border-top: 1px solid #000000;
+     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(142, 142, 142, 0.75)), color-stop(100%, rgba(255, 255, 255, 0.58)));
+  background-image: -webkit-linear-gradient(top, rgba(142, 142, 142, 0.75), rgba(255, 255, 255, 0.58));
+  background-image: -moz-linear-gradient(top, rgba(142, 142, 142, 0.75), rgba(255, 255, 255, 0.58));
+  background-image: -o-linear-gradient(top, rgba(142, 142, 142, 0.75), rgba(255, 255, 255, 0.58));
+  background-image: linear-gradient(top, rgba(142, 142, 142, 0.75), rgba(255, 255, 255, 0.58));
+}

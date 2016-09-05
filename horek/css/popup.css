@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+/* Настройка формы */
+.Form-1 {
+    /* Size and position */
+    width: 400px;
+/*    height: 400px;*/
+/*    margin: 0px 0px 0px 0px;*/
+    margin: 0 auto;
+    padding: 15px 15px 15px 15px;
+    /* Styles */
+    background: rgb(18, 0, 0);
+    border: solid 1px #868f98;
+    border-radius: 3px;
+    text-align: left;
+    border-radius: 15px;
+    text-align: center;
+/*    color: black;*/
+/*    color: #ffffff!important;*/
+/*
+    box-shadow:
+
+        0 0 0 12px rgba(255,255,255,0.4);
+*/
+}
+
+/* Заголовок формы */
+.Form-1 h4 {
+    /* Size and position */
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+    /* Font styles */
+    font: 18px Verdana ;
+    font-weight: bold;
+    color: #e2dada;
+    text-align: center;
+}
+.Form-1 img {
+    width: 80%;
+}
+.Form-2 {
+    /* Size and position */
+    width: 400px;
+/*    height: 400px;*/
+    margin: 1px 1px 1px 1px;
+    padding: 5px 10px 5px 10px;
+}
+
+/* Подписи полей ввода */
+.Form-1 label {
+    /* Size and position */
+    margin: 5px;
+    padding: 1px 10px 1px 10px;
+    /* Font styles */
+    font: 14px Verdana;
+    color: #f8f8f8;
+    text-align: left!important;
+}
+
+/* Поля ввода */
+.Form-1 input {
+    /* Size and position */
+    width: 85%;
+    height: 30px;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 5px 1px 5px;
+    /* Styles */
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    border: solid 1px #868f98;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(255, 254, 254, 0.33);
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(255, 254, 254, 0.33);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(255, 254, 254, 0.33);
+    /* Font styles */
+    font: 12px Verdana;
+    color: #bababa;
+}
+
+.Form-1 textarea {
+    /* Size and position */
+    height: 100px;
+/*    width: 356px;*/
+    width: 85%;
+    margin: 5px 1% 5px 1%;
+    padding: 10px 10px 10px 10px;
+    /* Styles */
+    overflow: hidden;
+    border: solid 1px #868f98;
+    border-radius: 2px;
+    background: rgb(0, 0, 0);
+    border: solid 1px #868f98;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(255, 254, 254, 0.33);
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(255, 254, 254, 0.33);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(255, 254, 254, 0.33);
+    /* Font styles */
+    font: 12px Verdana;
+}
+/*Кнопки*/
+#send, #clear {
+    /* Size and position */
+    width: 40%;
+    height: 30px;
+    margin: 10px 1% 10px 6%;
+    padding: 2px 5px 2px 5px;
+    /* Styles */
+    box-shadow: inset 1px 1px 10px 2px rgba(255,255,255,0.7);
+    border-radius: 5px;
+    cursor: pointer;
+    /* Font styles */
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#send {
+    background: #76746f; /* Fallback */
+    background: -moz-linear-gradient(#ffffff, #5c5a58);
+    background: -ms-linear-gradient(#ffffff, #5c5a58);
+    background: -o-linear-gradient(#ffffff, #5c5a58);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#5c5a58));
+    background: -webkit-linear-gradient(#ffffff, #5c5a58);
+    background: linear-gradient(#ffffff, #5c5a58);
+    border: 1px solid #000000;
+    color: #000000;
+    text-shadow: 0 1px rgba(255,255,255,0.3);
+}
+
+#clear {
+    background: #fbd568; /* Fallback */
+    background: -moz-linear-gradient(#3c3c3c, #ffffff);
+    background: -ms-linear-gradient(#3c3c3c, #ffffff);
+    background: -o-linear-gradient(#3c3c3c, #ffffff);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#3c3c3c), to(#ffffff));
+    background: -webkit-linear-gradient(#3c3c3c, #ffffff);
+    background: linear-gradient(#3c3c3c, #ffffff);
+    border: 1px solid #000000;
+    color: #000000;
+    text-shadow: 0 1px rgba(255,255,255,0.3);
+}
+
+#send:hover,
+#clear:hover {
+    box-shadow:
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 20px 40px rgba(255,255,255,0.15);
+}
+
+#send:active,
+#clear:active {
+    top: 2px;
+}

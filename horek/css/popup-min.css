@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+/* Настройка формы */
+.form_static {
+    position: absolute;
+    top: -5%;
+    right: 18%;
+    z-index: 15;
+}
+@media (max-width: 979px) {
+    .form {
+        left:5%;
+    }
+    .mail {
+    background-position: 100% 360%;
+}
+                            }
+
+.Form-1_1 {
+    /* Size and position */
+    width: 370px;
+    padding: 15px 15px 15px 15px;
+    /* Styles */
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 2px 2px 2px 2px rgba(144, 143, 143, 0.4);
+}
+
+/* Заголовок формы */
+.Form-1_1 h4 {
+    /* Size and position */
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+    /* Font styles */
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+    line-height: 2em;
+
+}
+.Form-1_1 img {
+    width: 80%;
+}
+.Form-2_1 {
+    /* Size and position */
+    width: 400px;
+    margin: 1px 1px 1px 1px;
+    padding: 5px 10px 5px 10px;
+}
+.Form-1_1 p {
+    font-size: 14px;
+    font-family: ModernH-Light;
+}
+
+/* Поля ввода */
+.Form-1_1 input {
+    /* Size and position */
+    width: 80%;
+    height: 50px;
+    margin: 10px auto;
+    padding: 10px 15px 10px 15px;
+    /* Styles */
+    overflow: hidden;
+    background: #ffffff;
+    border: solid 1px #b9b9b9;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #ccc;
+    -webkit-box-shadow: 0 0 2px #ccc;
+    -moz-box-shadow: 0 0 2px #ccc;
+    /* Font styles */
+    font: 16px Verdana;
+    color: #141414;
+}
+
+/*Кнопки*/
+#send1 {
+    /* Size and position */
+    width: 80%;
+    height: 50px;
+    margin: 15px 5px;
+/*    padding: 0px 5px 5px 5px;*/
+    /* Styles */
+/*    box-shadow: inset 1px 1px 10px 2px rgba(255,255,255,0.7);*/
+    border-radius: 10px;
+    cursor: pointer;
+    /* Font styles */
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffc100;
+    color: #ffffff;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    background: -webkit-radial-gradient(#8e3b3b, #2a0202); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#8e3b3b, #2a0202); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#8e3b3b, #2a0202); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#8e3b3b, #2a0202); /* Стандартный синтаксис */
+    box-shadow: 5px 5px 5px 1px rgba(136, 130, 130, 0.76);
+    transition:1s;
+}
+
+
+#send1:hover {
+    background: #f8a900;
+    color:black;
+}
+
+input:focus {
+    outline:none;
+    border:2px solid #3c374e;
+}

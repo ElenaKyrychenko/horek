@@ -1,0 +1,83 @@
+main {
+   background-image: none;
+   min-height: 645px;
+   margin-top:-10px;
+   padding:0;
+}
+
+.container {
+    width: 100%;
+    padding:0;
+    margin: 0;
+}
+
+/*.dolg_head {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #000000;
+     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(221, 219, 219, 0.92)), color-stop(100%, rgba(255, 255, 255, 0.58)));
+  background-image: -webkit-linear-gradient(right, rgba(221, 219, 219, 0.92), rgba(255, 255, 255, 0.58));
+  background-image: -moz-linear-gradient(right, rgba(221, 219, 219, 0.92), rgba(255, 255, 255, 0.58));
+  background-image: -o-linear-gradient(right, rgba(221, 219, 219, 0.92), rgba(255, 255, 255, 0.58));
+  background-image: linear-gradient(right, rgba(221, 219, 219, 0.92), rgba(255, 255, 255, 0.58));
+}
+*/
+h1 {
+    text-align: center;
+    margin-top: 0%;
+    font-size: 28px;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.img {
+    z-index: -15;
+    padding: 0;
+    margin:0;
+}
+.img img {
+    min-height: 370px;
+}
+.about_nasl p{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+}
+
+.nasl_help {
+/*     padding: 2%;*/
+    border-top: 2px solid #000000;
+}
+
+.nasl_help p{
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center>ul {
+    text-align: left;
+    margin: 0px auto;
+    width: 100%;
+    background-color: #eaeaea;
+    border-top: 3px solid rgb(126, 1, 1);
+}
+
+.center li{
+    padding: 5px;
+    margin:0 0 0 25%;
+}
+
+
+.bottom {
+    text-align: center;
+    padding: 20px;
+    border-top:2px solid black;
+}
+
+
